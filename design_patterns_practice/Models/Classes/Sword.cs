@@ -10,7 +10,7 @@
 
         public string GetNameOfElement()
         {
-            return _natureElement.GetName();
+            return _natureElement.Name;
         }
 
         public void CommonAttack()
