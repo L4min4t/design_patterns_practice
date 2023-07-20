@@ -4,7 +4,13 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            var fire = new FireElement();
+            var ice = new Iceelement();
+            var thunder = new ThunderElement();
+            var sword = new Sword(ice);
+            sword.MagicAttack();
+            sword.SetNaturElement(fire);
+            sword.MagicAttack();
         }
     }
 }
