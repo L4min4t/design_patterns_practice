@@ -2,7 +2,7 @@
 {
     public class Knight : IObserver
     {
-        public AttakState State { get; set; }
+        public AttackState State { get; set; }
         public void Update(IObservable subject)
         {
             if(subject is King king)

@@ -1,6 +1,6 @@
 ﻿namespace design_patterns_practice.Models.Classes
 {
-    public enum AttakState
+    public enum AttackState
     {
         LineUp, 
         Prepare,

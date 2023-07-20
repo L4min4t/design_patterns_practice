@@ -4,7 +4,7 @@
     {
         private List<Knight> _knights = new List<Knight>();
 
-        public AttakState AttakState {
+        public AttackState AttakState {
             get => AttakState;
             private set
             {
@@ -13,9 +13,9 @@
             } 
         }
 
-        public void CommandLineUp() => AttakState = AttakState.LineUp;
-        public void CommandPrepare() => AttakState = AttakState.Prepare;
-        public void CommandAttak() => AttakState = AttakState.Attak;
+        public void CommandLineUp() => AttakState = AttackState.LineUp;
+        public void CommandPrepare() => AttakState = AttackState.Prepare;
+        public void CommandAttak() => AttakState = AttackState.Attak;
 
         public void Attach(IObserver observer)
         {
