@@ -2,10 +2,7 @@
 {
     public class FireElement : INatureElement
     {
-        public string GetName()
-        {
-            return GetType().Name;
-        }
+        public string Name { get => GetType().Name; }
 
         public string Attaсk()
         {

@@ -2,14 +2,11 @@
 {
     public class Iceelement : INatureElement
     {
+        public string Name { get => GetType().Name; }
         public string Attaсk()
         {
             return "ice attack";
         }
 
-        public string GetName()
-        {
-            return GetType().Name;
-        }
     }
 }

@@ -3,6 +3,6 @@
     public interface INatureElement
     {
         string Attaсk();
-        string GetName();
+        string Name { get; }
     }
 }
