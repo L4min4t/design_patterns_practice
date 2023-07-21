@@ -3,12 +3,12 @@
     public class MoleMail
     {
         private string _currentMessage = "no message";
-        public void SendMessage(string message)
+        public virtual void SendMessage(string message)
         {
             _currentMessage = message;
-            Console.WriteLine($"Darve sendes by Mole message: {message}");
+            Console.WriteLine($"Darve sends by Mole message: {message}");
         }
 
-        public string GetMessage() => _currentMessage;
+        public virtual string GetMessage() => _currentMessage;
     }
 }
