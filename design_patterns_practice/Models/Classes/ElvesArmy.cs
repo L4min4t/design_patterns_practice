@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace design_patterns_practice.Models.Classes
+﻿namespace design_patterns_practice.Models.Classes
 {
-    internal class ElvesArmy
+    public class ElvesArmy
     {
         public List<Elf> elves = new List<Elf>();
     }
