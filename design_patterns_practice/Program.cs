@@ -1,6 +1,4 @@
-﻿using System.Dynamic;
-
-namespace design_patterns_practice
+﻿namespace design_patterns_practice
 {
     internal class Program
     {
@@ -35,6 +33,7 @@ namespace design_patterns_practice
             //elf.SendMessage(owl, 222);
             //MoleToOwlAdaper adapter = new MoleToOwlAdaper(owl);
             //dwarf.GetMessage(adapter);
+
 
 
             //// factory method test

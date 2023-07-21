@@ -1,4 +1,4 @@
-﻿namespace design_patterns_practice.Models.Classes
+﻿namespace design_patterns_practice.Models.Classes.Singletone
 {
     public static class SpellBookSingletone
     {
@@ -14,7 +14,7 @@
                     if (_spellBook == null)
                     {
                         _spellBook = new SpellBook();
-                    }  
+                    }
                 }
             }
 

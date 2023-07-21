@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Reflection;
 
-namespace design_patterns_practice.Models.Classes
+namespace design_patterns_practice.Models.Classes.FactoryMethod
 {
     public class Mage
     {

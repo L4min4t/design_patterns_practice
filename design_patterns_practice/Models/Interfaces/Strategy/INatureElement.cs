@@ -1,4 +1,4 @@
-﻿namespace design_patterns_practice.Models.Interfaces
+﻿namespace design_patterns_practice.Models.Interfaces.Strategy
 {
     public interface INatureElement
     {

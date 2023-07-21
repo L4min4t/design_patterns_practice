@@ -1,4 +1,4 @@
-﻿namespace design_patterns_practice.Models.Classes
+﻿namespace design_patterns_practice.Models.Classes.Adapter
 {
     public class MoleToOwlAdaper : MoleMail
     {
@@ -9,7 +9,7 @@
             _owl = owl;
         }
 
-        public override void SendMessage(string  message)
+        public override void SendMessage(string message)
         {
             _owl.SendMessage(Convert.ToInt32(message));
         }

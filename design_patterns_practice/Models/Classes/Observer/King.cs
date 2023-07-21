@@ -1,16 +1,19 @@
-﻿namespace design_patterns_practice.Models.Classes
+﻿using design_patterns_practice.Models.Interfaces.Observer;
+
+namespace design_patterns_practice.Models.Classes.Observer
 {
     public class King : IObservable
     {
         private List<Knight> _knights = new List<Knight>();
 
-        public AttackState AttakState {
+        public AttackState AttakState
+        {
             get => AttakState;
             private set
             {
                 AttakState = value;
                 Notify();
-            } 
+            }
         }
 
         public void CommandLineUp() => AttakState = AttackState.LineUp;

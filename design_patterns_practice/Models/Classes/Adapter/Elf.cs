@@ -1,4 +1,4 @@
-﻿namespace design_patterns_practice.Models.Classes
+﻿namespace design_patterns_practice.Models.Classes.Adapter
 {
     public class Elf
     {

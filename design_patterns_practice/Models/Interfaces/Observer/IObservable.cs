@@ -1,4 +1,4 @@
-﻿namespace design_patterns_practice.Models.Interfaces
+﻿namespace design_patterns_practice.Models.Interfaces.Observer
 {
     public interface IObservable
     {
